@@ -141,7 +141,19 @@
         background-color: #264659;
         border: 1px solid #009AE4;
     }
-
+    
+    [alt="BetterTTV/FFZ Emote Fix"] + .connectedAccountNameInner-1phBvE::after {
+        .emote,
+        .emote.jumboable {
+	    width: auto;
+	    height: auto;
+    }
+        
+    [alt="BetterDiscord Chat Emotes"] + .connectedAccountNameInner-1phBvE::after {
+        .emotewrapper {
+	    margin: 4px 0px 0px 0px;
+    }        
+        
     [alt="Xbox Live Logo"] + .connectedAccountNameInner-1phBvE::after {
         background-color: #394E31;
         border: 1px solid #5DC21E;
